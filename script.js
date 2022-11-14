@@ -3,9 +3,10 @@ const searchList = document.querySelector('#search-list'); // Autocomplete box
 const resultGrid = document.querySelector('#result-grid'); // Result container
 
 // Set default data to localstorage
-let favMovies = [];
-localStorage.setItem('favMovies',JSON.stringify(favMovies));
-
+if(!localStorage.getItem('favMovies')){
+    let favMovies = [];
+    localStorage.setItem('favMovies',JSON.stringify(favMovies));
+}
 // Load movies from API
 async function loadMovies(searchTerm) {
     const URL = `http://www.omdbapi.com/?s=${searchTerm}&page=1&apikey=755f786c`; //Base URL
