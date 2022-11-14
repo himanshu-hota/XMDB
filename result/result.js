@@ -55,11 +55,6 @@ const addToFav = () =>{
     
 }
 
-if(movieID){
-    console.log("movie id hai bhai");
-}else{
-        console.log("movie id nahi hai bhai");
-}
 
 // OnLoad -- Run this command only if it has any data to show.
 if(movieID){
