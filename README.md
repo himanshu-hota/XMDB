@@ -39,8 +39,9 @@ About the Project :-
    ![image](https://user-images.githubusercontent.com/62291769/201727429-7fce3c9f-1302-485b-a6cb-9368c0290635.png)
 
    🔴 Favourite list page :-
-   
-    ![image](https://user-images.githubusercontent.com/62291769/201727778-34e526a5-d0cc-424a-b4da-32935422c1c6.png)
+  
+   ![image](https://user-images.githubusercontent.com/62291769/201728442-8b8cd449-f682-473d-812a-f4ba985b065f.png)
+
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------
   
