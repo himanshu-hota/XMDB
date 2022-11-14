@@ -36,6 +36,7 @@ async function getData(movieID) {
     displayMovieDetails(movieDetails); //Display the movie
 }
 
+//Check if movie is already added to the list
 if(favMovies.includes(movieID)){
     addToFavBtn.textContent = 'Already Added To Favourites';
 }
@@ -54,8 +55,10 @@ const addToFav = () =>{
     
 }
 
-// Onload
+// OnLoad -- Runt this command only if it has any data to show.
+if(favMovies.length>0){
 getData(movieID);
+}
 
 //Event listeners
 addToFavBtn.addEventListener('click',addToFav);
