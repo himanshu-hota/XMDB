@@ -3,7 +3,7 @@ const searchList = document.querySelector('#search-list'); // Autocomplete box
 const resultGrid = document.querySelector('#result-grid'); // Result container
 
 // Set default data to localstorage
-let favMovies = ['tt0800369'];
+let favMovies = [];
 localStorage.setItem('favMovies',JSON.stringify(favMovies));
 
 // Load movies from API
