@@ -55,8 +55,10 @@ const addToFav = () =>{
     
 }
 
+console.log(favMovies.length);
+
 // OnLoad -- Runt this command only if it has any data to show.
-if(favMovies.length>0){
+if(favMovies.length != 0){
 getData(movieID);
 }
 
